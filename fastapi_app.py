@@ -6,7 +6,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from rag_core import RAGEngine, InMemorySessionStore
 from utils import load_settings
-
+import pandas as pd
 
 class ChatRequest(BaseModel):
     message: str
