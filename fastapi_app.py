@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import os
 from typing import Optional
-import pandas as pd
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from rag_core import RAGEngine, InMemorySessionStore
